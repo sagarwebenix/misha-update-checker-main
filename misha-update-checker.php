@@ -2,7 +2,7 @@
 /*
  * Plugin name: Misha Update Checker
  * Description: This simple plugin does nothing, only gets updates from a custom server
- * Version: 2.0
+ * Version: 3.0
  * Author: Sagar Dholakiya
  * Author URI: https://webeinx.net
  * License: GPL
@@ -26,7 +26,7 @@ if( ! class_exists( 'mishaUpdateChecker' ) ) {
 		public function __construct() {
 
 			$this->plugin_slug = plugin_basename( __DIR__ );
-			$this->version = '2.0';
+			$this->version = '3.0';
 			$this->cache_key = 'misha_custom_upd';
 			$this->cache_allowed = false;
 
